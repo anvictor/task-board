@@ -1,0 +1,77 @@
+.button{
+  text-align: center;
+  background-color: #5c86d6;
+  display: block;
+  border: 1px solid #2c365b;
+  border-radius: 5px;
+  height: 50px;
+  padding: 11px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration-line: none;
+  margin: 13px auto;
+  cursor: auto;
+}
+.button-disabled{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.23);
+  display: block;
+  border: 1px solid rgba(44, 54, 91, 0.26);
+  border-radius: 5px;
+  height: 50px;
+  padding: 11px;
+  color: rgba(255, 255, 255, 0.51);
+  text-transform: uppercase;
+  text-decoration-line: none;
+  margin: 13px auto;
+  cursor: auto;
+}
+
+table.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.blueTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+.error{
+  color: red;
+  font-weight: bold;
+  font-size: 25px;
+  position: absolute;
+  top: 136px;
+  display: none;
+}
+.error-visible{
+  color: red;
+  font-weight: bold;
+  font-size: 25px;
+  position: absolute;
+  top: 136px;
+}

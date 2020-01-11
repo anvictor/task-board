@@ -1,0 +1,22 @@
+
+.imgClass  {
+  object-fit: contain !important;
+}
+.card{
+  width: 100%;
+}
+.TaskList {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+}
+@media (max-width: 800px) {
+  .TaskList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+  }
+}
